@@ -1,4 +1,4 @@
-﻿namespace Homework_51 {
+﻿namespace homework51 {
     public class Shirt {
         public string Color { get; set; }
         public string Pattern { get; set; }
@@ -12,14 +12,14 @@
     public class Program {
         static void Main(string[] args)
         {
-            string[] colors = { "red", "green", "blue" };
-            string[] patterns = { "striped", "checked", "plain" };
+            string[] colors = {"red","green","blue"};
+            string[] patterns = {"striped","checked","plain"};
             foreach (string color in colors)
             {
                 foreach (string pattern in patterns)
                 {
                     Shirt shirt = new Shirt(color, pattern);
-                    Console.WriteLine($"{shirt.Color}: {shirt.Pattern}");
+                    Console.WriteLine($"{shirt.Color}:{shirt.Pattern}");
                 }
             }
         }
