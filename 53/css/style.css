@@ -1,0 +1,40 @@
+
+html {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-style: arial;
+    font-size: 2.5rem;
+    }
+
+h2  {
+    font-style: italic;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-style: arial;
+    font-size: 1.9rem;
+    }
+
+h4 {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+ h5 {
+    font-style: italic;
+        font-size: 1.75rem;;
+}
+
+p,
+article {
+    font-size: 1.2rem;
+}
