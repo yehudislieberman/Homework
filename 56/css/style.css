@@ -1,0 +1,67 @@
+
+html {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 500px;
+    margin:auto
+}
+
+
+h1 {
+    margin: center;
+    padding-top: .15rem;
+    padding-bottom: .5rem;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    color: rgb(255, 255, 255, .5);
+    font-weight: bolder;
+    font-style: arial;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px white;
+    word-spacing: .4rem;
+    text-transform: uppercase;
+    height: 7rem;
+    }
+
+h2  {
+    overflow-y: auto;
+    font-style: italic;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-style: arial;
+    font-size: 1.9rem;
+    }
+
+h4 {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+ h5 {
+    font-style: italic;
+        font-size: 1.75rem;;
+}
+
+p,
+article {
+    font-size: 1.2rem;
+}
+a:hover {
+    color: white
+}
+
+a { 
+    
+    color: rgb(255, 255, 255, .5);
+    text-decoration: none;
+    }
+
+.list,
+list li {
+    display: inline;
+   }
