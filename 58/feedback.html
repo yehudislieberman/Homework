@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        html {
+            color: white;
+            background-color: black;
+        }
+        input{
+            width:40%;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+         a:hover {
+        color: white
+        }
+
+        a { 
+        color: rgb(255, 255, 255, .5);
+        text-decoration: none;
+        }
+
+    </style>
+
+</head>
+<body>
+    <form method="POST">
+        <label> Name:
+            <input name="Name" placeholder="Enter Name" required/>
+            </label>
+            <label>Email:
+                <input type="email" 
+                name="email" placeholder="Enter Email" required/>
+            </label>
+            <label>Phone Number:
+                <input name="Number" minLength="10" placeholder="Enter Number" required/>
+            </label>
+            <label>What, if any, products, services, or features are we missing?
+            <input name="Feedback" required/>
+            </label>
+            <label>Were your expectations met, unmet, or exceeded?
+            <input name="Feedback2" required/>
+            </label>
+            <label>How would you rate your experience in our store / on our website on a scale of 1-5?
+            <input type="number" 
+            name="number" min="1" max="5"/>
+            </label>
+            <input type="submit" />
+            </form>
+
+            <a href="index.html">Homepage</a>
+
+    
+</body>
+</html>
