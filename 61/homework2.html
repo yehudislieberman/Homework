@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSGrid</title>
+    <style>
+        body {
+            display: grid;
+            gap: .25em;
+            grid-auto-columns: 75px;
+            grid-auto-rows: 90px;
+            grid-template-areas:
+                "one"
+                "two"
+                "three"
+                "four"
+                "five"
+                "six"
+                "seven";
+        }
+
+        .one {
+            grid-area: one;
+        }
+
+        .two {
+            grid-area: two;
+        }
+
+        .three {
+            grid-area: three;
+        }
+
+        .four {
+            grid-area: four;
+        }
+
+        .five {
+            grid-area: five;
+        }
+
+        .six {
+            grid-area: six;
+        }
+
+        .seven {
+            grid-area: seven;
+        }
+
+        div {
+            background-color: rgb(215, 111, 13);
+
+        }
+
+        @media (600px <= width) {
+            body {
+                grid-template-areas:
+                    "one one"
+                    "two three"
+                    "four five"
+                    "six seven";
+            }
+
+            div {
+                background-color: rgba(21, 102, 100, 0.933);
+            }
+
+        }
+
+        @media (800px <= width) {
+            body {
+                grid-template-areas:
+                    "one one two three"
+                    "four five six seven";
+            }
+
+            div {
+                background-color: brown;
+            }
+
+            }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+    <div class="seven"></div>
+
+</body>
+
+</html>

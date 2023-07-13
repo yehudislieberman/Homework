@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSGrid</title>
+    <style>
+        
+        body {
+            display: grid;
+            grid-template-columns: 250px 50px 50px 250px;
+            grid-template-rows: 250px 50px 50px 250px;
+            justify-content: center;
+            grid-template-areas:
+                ". Red Red ."
+                "Green Red2 Purple2 Purple"
+                "Green Green2 Brown2 Purple"
+                ". Brown Brown ."
+
+        }
+
+        .red {
+            background-color: red;
+            grid-area: Red;
+        }
+
+        .red2 {
+            background-color: red;
+            grid-area: Red2;
+        }
+
+        .purple {
+            background-color: purple;
+            grid-area: Purple;
+        }
+
+        .purple2 {
+            background-color: purple;
+            grid-area: Purple2;
+        }
+
+        .brown {
+            background-color: brown;
+            grid-area: Brown;
+        }
+
+        .brown2 {
+            background-color: brown;
+            grid-area: Brown2;
+        }
+
+        .green {
+            background-color: green;
+            grid-area: Green;
+        }
+
+        .green2 {
+            background-color: green;
+            grid-area: Green2;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="red"></div>
+    <div class="purple"></div>
+    <div class="brown"></div>
+    <div class="green"></div>
+    <div class="red2"></div>
+    <div class="purple2"></div>
+    <div class="brown2"></div>
+    <div class="green2"></div>
+</body>
+
+</html>
