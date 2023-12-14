@@ -1,0 +1,22 @@
+[
+    {
+        "title": "El Hanaar Hazeh",
+        "url": "media/ElHanaarHazeh.mp4",
+        "picture": "media/elhanaar.png"
+    },
+    {
+        "title": "Ivri",
+        "url": "media/ivri.mp4",
+        "picture": "media/ivrianochi.png"
+    },
+    {
+        "title": "Kol Zman",
+        "url": "media/kolzman.mp4",
+        "picture": "media/kolzman.png"
+    },
+    {
+        "title": "Yesh Tikvah",
+        "url": "media/yeshTikvah.mp4",
+        "picture": "media/yeshtikvah.png"
+    }
+]
