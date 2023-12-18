@@ -1,0 +1,38 @@
+[
+    {
+        "customer": "Bob",
+        "address": "123 Any Street Lakewood NJ 08701",
+        "items": [
+            {
+                "item": "Cookies",
+                "quantity": 5,
+                "total": 4.95
+            },
+            {
+                "item": "Cake",
+                "quantity": 10,
+                "total": 7.95
+            },
+            {
+                "item": "Biscuits",
+                "quantity": 3,
+                "total": 2.75
+            },
+            {
+                "item": "Donuts",
+                "quantity": 1,
+                "total": 3.99
+            },
+            {
+                "item": "Iced Coffe",
+                "quantity": 1,
+                "total": 7.95
+            },
+            {
+                "item": "Jelly beans",
+                "quantity": 2,
+                "total": 3
+            }
+        ]
+    }
+]
