@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW83</title>
+    <style>
+        body,
+        html,
+        #selectParts,
+        #background {
+            height: 100%;
+            margin: 0;
+        }
+
+        #selectParts {
+            float: right;
+            width: 20%;
+            margin: auto;
+
+        }
+
+        .parts {
+            position: absolute;
+            height: 75px;
+            width: 120px;
+        }
+
+        #background {
+            float: right;
+            width: 80%;
+        }
+
+        body {
+            background-image: url('images/backgroundPic.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #body {
+            height: 150px;
+        }
+
+        #saveButton {
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="selectParts">
+        <img class="parts" id="body" src="images/body.png">
+        <img class="parts" id="bowtie" src="images/bowtie.png">
+        <img class="parts" id="cap" src="images/cap.png">
+        <img class="parts" id="eyes" src="images/eyes.png">
+        <img class="parts" id="hat" src="images/hat.png">
+        <img class="parts" id="leftear" src="images/leftear.png">
+        <img class="parts" id="rightear" src="images/rightear.png">
+        <img class="parts" id="mustache" src="images/mustache.png">
+        <img class="parts" id="sneakers" src="images/sneakers.png">
+    </div>
+
+    <div>
+        <audio id="backgroundMusic" src="images/backgroundMusic.mp3" controls autoplay loop></audio>
+    </div>
+
+    <button id="saveButton">Save Image</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="hw.js"></script>
+</body>
+
+</html>
