@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW84</title>
+    <style>
+        body,
+        html,
+        #selectParts,
+        #background {
+            height: 100%;
+            margin: 0;
+        }
+
+        #selectParts {
+            float: right;
+            width: 20%;
+            margin: auto;
+
+        }
+
+        .parts {
+            position: absolute;
+            height: 75px;
+            width: 120px;
+        }
+
+        #background {
+            float: right;
+            width: 80%;
+        }
+
+        body {
+            background-image: url('images/backgroundPic1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #body {
+            height: 150px;
+        }
+
+        #saveButton,
+        #resetButton {
+            margin: 5px;
+        }
+
+        #backgroundOptions {
+            display: flex;
+            gap: 10px;
+
+        }
+
+        .bgOption {
+            padding: 10px;
+            border: 2px solid aliceblue;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            color: hotpink;
+        }
+
+        #background1 {
+            background-image: url('images/backgroundPic1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #background2 {
+            background-image: url('images/backgroundPic2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #background3 {
+            background-image: url('images/backgroundPic3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="selectParts">
+        <img class="parts" id="body" src="images/body.png">
+        <img class="parts" id="bowtie" src="images/bowtie.png">
+        <img class="parts" id="cap" src="images/cap.png">
+        <img class="parts" id="eyes" src="images/eyes.png">
+        <img class="parts" id="hat" src="images/hat.png">
+        <img class="parts" id="leftear" src="images/leftear.png">
+        <img class="parts" id="rightear" src="images/rightear.png">
+        <img class="parts" id="mustache" src="images/mustache.png">
+        <img class="parts" id="sneakers" src="images/sneakers.png">
+    </div>
+
+    <div id="backgroundOptions">
+        <div class="bgOption" id="background1">Use this background</div>
+        <div class="bgOption" id="background2">Use this background</div>
+        <div class="bgOption" id="background3">Use this background</div>
+    </div>
+
+    <div>
+        <audio id="backgroundMusic" src="images/backgroundMusic1.mp3" controls loop></audio>
+    </div>
+
+    <select id="musicSelector">
+        <option value="backgroundMusic1.mp3">Music Option 1</option>
+        <option value="backgroundMusic2.mp3">Music Option 2</option>
+        <option value="backgroundMusic3.mp3">Music Option 3</option>
+    </select>
+
+    <button id="saveButton">Save Image</button>
+    <button id="resetButton">Reset Image</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="hw.js"></script>
+</body>
+
+</html>
