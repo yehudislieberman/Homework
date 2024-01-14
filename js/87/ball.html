@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW87</title>
+    <style>
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        #theCanvas {
+            display: block;
+        }
+
+        #customizeBall {
+            padding-top: .5em;
+            padding-left: .5em;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form id="customizeBall">
+        <label>
+            Color: <input id="color" type="color">
+        </label>
+        <label>
+            Radius: <input id="radius" type="number" required>
+        </label>
+        <button>Add ball</button>
+    </form>
+    <canvas id="theCanvas"></canvas>
+
+    <script src="ball.js"></script>
+</body>
+
+</html>
