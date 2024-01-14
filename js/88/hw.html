@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW88</title>
+    <style>
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        body{
+            overflow: hidden;
+        }
+    
+        #theCanvas {
+            display: block;
+        }
+    
+        #addAnts {
+            position: absolute;
+            top: .5em;
+            left: .5em;
+        }
+
+    </style>
+</head>
+<body>
+    <canvas id="theCanvas"></canvas>
+    <form id="addAnts">
+        <label>
+            Color: <input id="color" type="color">
+        </label>
+        <label>
+            Number of Ants: <input id="antAmount" type="number" required>
+        </label>
+        <button>Add</button>
+        </form>
+    
+    <script src="hw.js"></script>
+</body>
+</html>
