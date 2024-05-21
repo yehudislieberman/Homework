@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+header {
+  background-color: black;
+  color: gray;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#blogs-list {
+  padding: 15px;
+}
+
+.blog {
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.blog:hover  {
+border-color: lightslategray;
+border-radius: 0px;
+}
+a{
+  color: gray;
+}
+
+a:hover{
+  color: white;
+}
